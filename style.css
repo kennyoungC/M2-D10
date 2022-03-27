@@ -102,3 +102,8 @@ body {
 .discover-games .col-8 p {
   /* border-bottom: #aaa 2px solid; */
 }
+.discover-games .col-8 ul li img {
+  width: 200px;
+  height: 110px;
+  object-fit: cover;
+}
