@@ -12,10 +12,479 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
     <link rel="stylesheet" href="./style.css" />
-    <title>Hello, world!</title>
+    <title>Game world</title>
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><img src="./gog-assets/gog logo.webp" alt="gog logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >STORE <span><i class="bi bi-chevron-down"></i></span
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                >ABOUT <span><i class="bi bi-chevron-down"></i></span
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                >COMMUNITY <span><i class="bi bi-chevron-down"></i></span
+              ></a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link"
+                >SUPPORT <span><i class="bi bi-chevron-down"></i></span
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"
+                >ZIBALEAH <span><i class="bi bi-chevron-down"></i></span
+              ></a>
+            </li>
+          </ul>
+          <div class="d-flex gap-4 text-white justify-content-center">
+            <div>
+              <p class="icon-menu mb-0">
+                <i class="bi bi-bell"></i> <span>0</span>
+              </p>
+            </div>
+            <div>
+              <p class="icon-menu mb-0">
+                <i class="bi bi-people"></i> <span>0</span>
+              </p>
+            </div>
+            <div>
+              <p class="icon-menu mb-0">
+                <i class="bi bi-cart-dash"></i> <span>0</span>
+              </p>
+            </div>
+            <div>
+              <p class="icon-menu mb-0">
+                <i class="bi bi-search"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container my-3">
+      <p class="mb-0 fw-bolder">
+        <span><i class="bi bi-pencil-fill"></i></span> Highlights
+      </p>
+      <hr />
+    </div>
+    <section id="carousel-sect">
+      <div id="header-slider" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#header-slider"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#header-slider"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#header-slider"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#header-slider"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#header-slider"
+            data-bs-slide-to="4"
+            aria-label="Slide 5"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#header-slider"
+            data-bs-slide-to="5"
+            aria-label="Slide 6"
+          ></button>
+        </div>
+        <div class="container">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="position-relative">
+                <img
+                  src="./gog-assets/carousel1.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div
+                  class="d-flex flex-wrap gap-5 align-items-center description"
+                >
+                  <p class="mb-0 text-white fw-bold fs-3">$ 56.99</p>
+                  <button
+                    class="btn btn-success p-2 px-4 text-white fw-bold fs-5"
+                  >
+                    <span><i class="bi bi-cart-dash"></i></span> Add to cart
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="position-relative">
+                <img
+                  src="./gog-assets/carousel2.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div
+                  class="d-flex flex-wrap gap-5 align-items-center description"
+                >
+                  <p class="mb-0 text-white fw-bold fs-3">$ 60.99</p>
+                  <button
+                    class="btn btn-success p-2 px-4 text-white fw-bold fs-5"
+                  >
+                    <span><i class="bi bi-cart-dash"></i></span> Add to cart
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="position-relative">
+                <img
+                  src="./gog-assets/carousel3.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div
+                  class="d-flex flex-wrap gap-5 align-items-center description"
+                >
+                  <p class="mb-0 text-white fw-bold fs-3">$ 35.99</p>
+                  <button
+                    class="btn btn-success p-2 px-4 text-white fw-bold fs-5"
+                  >
+                    <span><i class="bi bi-cart-dash"></i></span> Add to cart
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="position-relative">
+                <img
+                  src="./gog-assets/carousel4.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div
+                  class="d-flex flex-wrap gap-5 align-items-center description"
+                >
+                  <p class="mb-0 text-white fw-bold fs-3">$ 80.99</p>
+                  <button
+                    class="btn btn-success p-2 px-4 text-white fw-bold fs-5"
+                  >
+                    <span><i class="bi bi-cart-dash"></i></span> Add to cart
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="position-relative">
+                <img
+                  src="./gog-assets/carousel5.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div
+                  class="d-flex flex-wrap gap-5 align-items-center description"
+                >
+                  <p class="mb-0 text-white fw-bold fs-3">$ 79.99</p>
+                  <button
+                    class="btn btn-success p-2 px-4 text-white fw-bold fs-5"
+                  >
+                    <span><i class="bi bi-cart-dash"></i></span> Add to cart
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="position-relative">
+                <img
+                  src="./gog-assets/carousel6.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div
+                  class="d-flex flex-wrap gap-5 align-items-center description"
+                >
+                  <p class="mb-0 text-white fw-bold fs-3">$ 39.99</p>
+                  <button
+                    class="btn btn-success p-2 px-4 text-white fw-bold fs-5"
+                  >
+                    <span><i class="bi bi-cart-dash"></i></span> Add to cart
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#header-slider"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#header-slider"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <section class="discount-deals mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-3">
+            <div class="card">
+              <img
+                src="./gog-assets/tile (2).jpg"
+                class="card-img-top img-fluid w-100"
+                alt="..."
+              />
+              <div class="card-body pb-4">
+                <p class="card-text text-muted">RollerCoaster tycoon</p>
+                <div
+                  class="card-text d-flex justify-content-between align-items-center"
+                >
+                  <p class="text-muted"><i class="bi bi-windows"></i></p>
+                  <p class="text-muted fs-5 fw-bold">$ 16.03</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card">
+              <img
+                src="./gog-assets/tile (4).jpg"
+                class="card-img-top img-fluid w-100"
+                alt="..."
+              />
+              <div class="card-body">
+                <p class="card-text text-muted">Smart city plan</p>
+                <div
+                  class="card-text d-flex justify-content-between align-items-center"
+                >
+                  <div class="d-flex gap-2 align-items-center">
+                    <p class="text-muted mb-0"><i class="bi bi-windows"></i></p>
+                    <p class="text-muted mb-0"><i class="bi bi-apple"></i></p>
+                    <p class="text-muted mb-0"><i class="bi bi-xbox"></i></p>
+                  </div>
+                  <div class="d-flex align-items-center gap-1">
+                    <p
+                      class="fs-4 fw-bold bg-success p-1 text-white rounded mb-0"
+                    >
+                      -25%
+                    </p>
+                    <div class="d-flex flex-column align-items-end">
+                      <p class="text-muted text-decoration-line-through mb-0">
+                        $19.99
+                      </p>
+                      <p class="text-muted fs-5 fw-bold mb-0">$ 14.99</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card">
+              <img
+                src="./gog-assets/tile (1).jpg"
+                class="card-img-top img-fluid w-100"
+                alt="..."
+              />
+              <div class="card-body">
+                <p class="card-text text-muted">Soulsaga</p>
+                <div
+                  class="card-text d-flex justify-content-between align-items-center"
+                >
+                  <p class="text-muted mb-0"><i class="bi bi-windows"></i></p>
+                  <div class="d-flex align-items-center gap-1">
+                    <p
+                      class="fs-4 fw-bold bg-success p-1 text-white rounded mb-0"
+                    >
+                      -75%
+                    </p>
+                    <div class="d-flex flex-column align-items-end">
+                      <p class="text-muted text-decoration-line-through mb-0">
+                        $59.39
+                      </p>
+                      <p class="text-muted fs-5 fw-bold mb-0">$ 19.99</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-3">
+            <div class="card">
+              <img
+                src="./gog-assets/tile (6).jpg"
+                class="card-img-top img-fluid w-100"
+                alt="..."
+              />
+              <div class="card-body">
+                <p class="card-text text-muted">Disco elysium</p>
+                <div
+                  class="card-text d-flex justify-content-between align-items-center"
+                >
+                  <div class="d-flex gap-2 align-items-center">
+                    <p class="text-muted mb-0"><i class="bi bi-windows"></i></p>
+                    <p class="text-muted mb-0"><i class="bi bi-apple"></i></p>
+                    <p class="text-muted mb-0"><i class="bi bi-xbox"></i></p>
+                  </div>
+                  <div class="d-flex align-items-center gap-1">
+                    <p
+                      class="fs-4 fw-bold bg-success p-1 text-white rounded mb-0"
+                    >
+                      -10%
+                    </p>
+                    <div class="d-flex flex-column align-items-end">
+                      <p class="text-muted text-decoration-line-through mb-0">
+                        $14.99
+                      </p>
+                      <p class="text-muted fs-5 fw-bold mb-0">$ 13.49</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="quick-advert">
+      <hr />
+      <div class="container">
+        <div class="d-flex justify-content-between">
+          <div class="advert-text-box">
+            <p class="mb-0">
+              We are GOG.COM, the <span>DRM-FREE</span> home for a
+              <span>curated selection</span> of games. This plkace was
+              <span>made for gamers,</span> so make yourself <br />
+              at home
+            </p>
+          </div>
+          <div class="middle-line"></div>
+          <div class="">
+            <img src="./gog-assets/round logo.png" alt="" />
+            <span>The new GOG GALAXY 2.0</span>
+          </div>
+        </div>
+      </div>
+      <hr />
+    </section>
+    <div class="container my-3">
+      <p class="mb-0 fw-bolder">
+        <span><i class="bi bi-star"></i></span> What's good?
+      </p>
+      <hr />
+    </div>
+    <div class="container">
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="..." class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
     <script src="./script.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"

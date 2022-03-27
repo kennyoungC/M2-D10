@@ -1,0 +1,77 @@
+body {
+  background-color: #ced4da;
+}
+.navbar .navbar-brand img {
+  width: 48px;
+  border-radius: 6px;
+}
+.icon-menu {
+  font-size: 28px;
+}
+.icon-menu span {
+  font-size: 18px;
+}
+.carousel-inner {
+  /* max-width: 1296px; */
+}
+#carousel-sect .carousel-inner > .carousel-item img {
+  height: 500px;
+  object-fit: cover;
+  z-index: -1;
+}
+.carousel-indicators {
+  transform: translateY(42px);
+}
+.carousel-indicators [data-bs-target] {
+  height: 3px;
+  width: 44px;
+  border-radius: 8px;
+}
+.carousel-indicators .active {
+  background-color: #dc3545;
+}
+.carousel-control-next,
+.carousel-control-prev {
+  width: 18%;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  border: 2px solid white;
+  border-radius: 50%;
+  padding: 20px;
+  background-color: black;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+}
+.description {
+  position: absolute;
+  z-index: 10;
+  bottom: 9%;
+  right: 6%;
+}
+.discount-deals .row .card > img {
+  height: 170px;
+  object-fit: cover;
+}
+.container .carousel-inner .carousel-item p + button {
+  background-color: rgb(156, 223, 57);
+  border: none;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+}
+.advert-text-box {
+  /* max-width: 60%; */
+}
+.advert-text-box span {
+  font-weight: bold;
+  color: #c230e6;
+}
+.middle-line {
+  border-right: 1px solid #aaa;
+}
+.middle-line + div img {
+  width: 32px;
+  margin-right: 8px;
+}
+.middle-line + div span {
+  font-weight: bold;
+  color: #c230e6;
+}
