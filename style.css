@@ -75,3 +75,30 @@ body {
   font-weight: bold;
   color: #c230e6;
 }
+.whats-good .row img {
+  height: 170px;
+  object-fit: cover;
+}
+.whats-good .row .card:hover {
+  transition: all 1s ease-in-out;
+}
+.whats-good .row .card:hover {
+  cursor: pointer;
+  transform: scale(1.09);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+}
+
+.whats-good .carousel-inner + button.carousel-control-prev {
+  width: 2%;
+}
+.whats-good .carousel-inner ~ button.carousel-control-next {
+  width: 2%;
+}
+.discover-games .col-8 > div > div.d-flex > p:nth-of-type(2) {
+  font-weight: bold;
+  color: #c230e6 !important;
+  /* border-bottom: 2px solid #c230e6; */
+}
+.discover-games .col-8 p {
+  /* border-bottom: #aaa 2px solid; */
+}
