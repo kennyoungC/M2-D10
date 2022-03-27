@@ -110,6 +110,26 @@ body {
 .Featured img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
+  object-position: center;
+}
+
+.new-report {
+  bottom: 18%;
+  left: 2%;
+}
+.news-number {
+  left: 2%;
+  bottom: 2%;
+}
+.news-hour {
+  bottom: 2%;
+  right: 2%;
+}
+.news-img {
+  filter: brightness(80%);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   object-position: center;
 }
