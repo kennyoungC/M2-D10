@@ -94,7 +94,7 @@ body {
 .whats-good .carousel-inner ~ button.carousel-control-next {
   width: 2%;
 }
-.discover-games .col-8 > div > div.d-flex > p:nth-of-type(2) {
+.discover-games .col-8 > div > div.d-flex > p.best {
   font-weight: bold;
   color: #c230e6 !important;
   /* border-bottom: 2px solid #c230e6; */
@@ -106,4 +106,10 @@ body {
   width: 200px;
   height: 110px;
   object-fit: cover;
+}
+.Featured img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
 }
